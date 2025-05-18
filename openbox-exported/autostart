@@ -27,8 +27,8 @@ exec dunst &
 exec thunar --daemon &
 
 # Enable Super Keys For Menu
-# ksuperkey -e 'Super_L=Alt_L|F1' &
-# ksuperkey -e 'Super_R=Alt_L|F1' &
+ksuperkey -e 'Super_L=Alt_L|F1' &
+ksuperkey -e 'Super_R=Alt_L|F1' &
 
 ## These applets are specifically for tint2 panel.
 ## If you're using tint2 as panel, Uncomment these applets.
@@ -46,5 +46,5 @@ xset s noblank
 pkill xss-lock
 pkill betterlockscreen
 
-bash ~/.config/openbox/themes/default/bgput.sh
-bash ~/.config/openbox/wallpaperfix.sh &
+bash ~/.config/openbox/themes/default/bgput.sh &
+bash ~/.config/openbox/fix_wallpaper.sh &

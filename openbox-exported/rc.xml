@@ -74,9 +74,6 @@
     <names>
       <name>1</name>
       <name>2</name>
-      <name>3</name>
-      <name>4</name>
-      <name>5</name>
     </names>
   </desktops>
   <!-- Resize -->
@@ -92,9 +89,9 @@
   <!-- Margin -->
   <margins>
     <top>48</top>
-    <bottom>10</bottom>
-    <left>10</left>
-    <right>10</right>
+    <bottom>0</bottom>
+    <left>0</left>
+    <right>0</right>
   </margins>
   <!-- Dock -->
   <dock>

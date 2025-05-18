@@ -6,8 +6,8 @@ MAX_TRIES=5
 i=0
 
 while [ $i -lt $MAX_TRIES ]; do
-  nitrogen --restore
+  sh ~/.config/openbox/themes/default/put_wallpaper.sh
   sleep 3
   i=$((i + 1))
-  echo "retrying restoring the wallpaper"
+  echo "Restoring wallpaper"
 done
